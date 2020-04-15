@@ -1,19 +1,23 @@
-# Project 0
+# Project 2 by Wenbo ZHAO, 201792259
 
 Web Programming with Python and JavaScript
 
 All files:
-
-	index.html: the home page of my website introducing a movie.
-	pics.html: a web page showing the pictures of actors.
-	prizes.html: a web page showing the prizes of this movie.
-	actor_list.html: a web page showing the info about actors of this movie.
-	homepage.css: a .css file.
-	prizes.css: another .css file, generated from prizes.scss.
-	prizes.scss: a .scss file.
-	prizes.css.map
-	pictures: a folder holding pictures of my website.
-	.sass-cache
-
-Introduction: my website is to introduce a little info about the movie The Curious Case Of Benjamin Button. In homepage, there is a paragraph, a picture of this movie's poster, and a Bootstrap component with three links. Via these three links, you can jump to the actors page, the pictures page, and the prizes page. In the actors page, there is a grim with some info about some actors of this movie. In the prizes page, there is a list about the scholarship and prize of this movie. In the pictures page, there is a table with posters and screenshots of this movie.
 	
+	application.py
+	README.md
+	requirements.txt
+	Project2赵文博201792259.pdf
+	__pycache__
+		application.cpython-37.pyc
+	static
+		username.js
+	templates
+		index.html
+
+Others:
+
+	1. This project includes two extra functions, cleaning the chat list and reseting the username. And reseting the chat list is irreversible for an individual user. 
+	2. No messages can be send out if there is not a username( after reseting the username). 
+	3. If there is already a username, the "use this username" button cannot be pressed unless press the "reset username" button first.
+	4. If the blanket is empty, the "use this username" button cannot be pressed, as well as the "send" button.
